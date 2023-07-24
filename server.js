@@ -39,7 +39,7 @@ const PORT = process.env.PORT || 8080;
 
 //listen
 app.listen(PORT, () => {
-  // console.log(`Server Running On Port ${PORT}`);
+   console.log(`Server Running On Port ${PORT}`);
 });
 
 //cartItems: (localStorage.getItem("cartItems") === undefined)  ? JSON.parse(localStorage.getItem("cartItems"))  : [],
